@@ -13,7 +13,7 @@ function someFunc(someArg1, someArg2, someArg3, someArg4) {
   // ...
 }
 
-// 래핑하는 함수
+// 래핑하는 함수 그닥
 function getFunc(someArg1, someArg2) {
   return someFunc(someArg1, someArg2, 10, 20);
 }
