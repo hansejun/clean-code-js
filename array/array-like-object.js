@@ -26,7 +26,7 @@ function generatePriceList() {
     console.log(arguments[i] + '원'); // 1000원 2000원 3000원
   }
 
-  //   return arguments.map(arg => arg + '원'); // TypeError: arguments.map is not a function
+  // return arguments.map(arg => arg + '원'); // TypeError: arguments.map is not a function
 }
 
 generatePriceList(1000, 2000, 3000);
